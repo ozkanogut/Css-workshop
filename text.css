@@ -1,0 +1,160 @@
+/* h1{
+
+    background: red;
+    color:white;
+    width: 270px ;
+    height: auto;
+}
+span{
+
+    color:green;
+}
+span.vur{
+
+    color:grey;
+}
+p{
+
+    color:red;
+
+}
+
+div{
+
+    color:aqua;
+}
+
+li{
+
+    color:brown;
+}
+li#tab {
+
+    color:green;
+}
+
+.den{
+
+    color:bisque;
+} */
+
+ /* * {color:pink;} */
+
+ /* h1 , p , div , ul  {
+
+    color: blue;
+
+ } */
+ 
+
+ /* li[class$="den"] {
+
+    background: yellow;
+ } */
+
+ /* .dene::after {
+
+   content: 'sonraki';
+   background-color: black;
+ } */
+
+ /* .dene::before {
+
+    content: 'önceki mevzu';
+    background: blue; 
+ }*/
+ /* input{
+
+    color:cornflowerblue;
+ }
+ 
+ input::placeholder {
+
+    color: blue;
+ }
+ textarea::placeholder {
+
+    color:red;
+ }
+
+ textarea {
+
+    color:yellow;
+ } */
+
+ /* input:focus {
+
+    background-color: red;
+ } */
+
+ /* input:invalid{
+
+    border-color: red;
+ }
+ input:invalid + span::before{
+    content: '*';
+ }
+
+ input:valid + span::before{
+
+    content: '<>';
+ }
+ input:valid + span.ok::before{
+    content: '|||||';
+ }
+
+ input:invalid + span.ok::before{
+    content: '***';
+ }
+ input:valid{
+    border-color: green;
+ } */
+
+ .box {
+   
+   width: 300px;
+   height: 300px;
+   border: double 20px blue;
+   margin-left: 10px;
+   border-radius: 50px 50px 50px 50px;
+   border-right-color: black;
+   font-family:'Times New Roman', Times, serif;
+   font-size: x-large;
+   font-style: italic;
+   
+   
+   }
+
+ .boz{
+   font-weight: 500;
+   font-size: 75px;
+   letter-spacing: 5px;
+   text-align: center;
+   margin-top: 55px;
+   /* text-transform:lowercase;  yazıları küçük yapıyor  */
+   
+    
+   }
+   /* .boz:last-child { text-transform: none;} yapılan yazı küçültme yada büyültme gibi işlemleri işlevsiz sayıyır */
+ h3 {
+   text-align: center;
+   color:black;
+   font-size: 150px;
+   font-weight: 700;
+   text-shadow: 0px 0px 20px red;
+   }
+
+ .box1 {
+   
+   width: 300px;
+   height: 300px;
+   border: double 20px blue;
+   border-radius: 50px 50px 50px 50px;
+   margin-left: 10px;
+   border-left-color: black;
+}
+ 
+
+
+
+
