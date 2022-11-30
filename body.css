@@ -15,7 +15,7 @@ body{
     margin: 0px;
 }
 
-.container {
+/* .container {
 
     width: 400px;
     height: 400px;
@@ -75,4 +75,36 @@ top:0px;
 .page .text{
 
     height: 700px;
+} */
+
+
+
+label {
+display: inline-block;
+width: 150px;
+height: 50px;
+background-color: #dddd;
+border-radius: 50px;
+position: relative;
+cursor: pointer;
 }
+label .check-btn {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    
+}
+label input {
+
+    display: none;
+}
+ label input:checked  + .check-btn  {
+
+    left:100px;
+    background-color:blue;
+    
+    
+ }
