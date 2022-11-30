@@ -110,7 +110,7 @@ li#tab {
     border-color: green;
  } */
 
- .box {
+ /* .box {
    
    width: 300px;
    height: 300px;
@@ -123,9 +123,9 @@ li#tab {
    font-style: italic;
    
    
-   }
+   } */
 
- .boz{
+ /* .boz{
    font-weight: 500;
    font-size: 75px;
    letter-spacing: 5px;
@@ -134,17 +134,17 @@ li#tab {
    /* text-transform:lowercase;  yazıları küçük yapıyor  */
    
     
-   }
+   /* } */
    /* .boz:last-child { text-transform: none;} yapılan yazı küçültme yada büyültme gibi işlemleri işlevsiz sayıyır */
- h3 {
+  /* .h3 {
    text-align: center;
    color:black;
    font-size: 150px;
    font-weight: 700;
    text-shadow: 0px 0px 20px red;
-   }
+   } */ 
 
- .box1 {
+  /* .box1 {
    
    width: 300px;
    height: 300px;
@@ -152,7 +152,8 @@ li#tab {
    border-radius: 50px 50px 50px 50px;
    margin-left: 10px;
    border-left-color: black;
-}
+   
+}  */
  
 
 

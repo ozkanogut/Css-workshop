@@ -9,3 +9,70 @@
 
     background-color: aqua;
 } */
+body{
+
+    height: 4000px;
+    margin: 0px;
+}
+
+.container {
+
+    width: 400px;
+    height: 400px;
+    background-color:darkgray;
+    position: relative;
+}
+.container div {
+
+    width: 100px;
+    height:100px;
+    
+}
+.container div:nth-child(1) {
+   
+    background-color: aqua;
+    position: relative;
+}
+.container div:nth-child(2){
+
+    background-color: bisque;
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+.container div:nth-child(3) {
+
+    background-color: brown;
+    position: absolute;
+    top:100px;
+    left: 75px;
+}
+.container div:nth-child(4){
+
+    background-color: blue;
+    left:120px;
+    top:175px;
+    position:absolute;
+}
+
+a.up {
+ bottom: 50px;
+ right: 50px;
+ position: fixed;
+ color: black;
+}
+
+.page h3 {
+ font: bold 40px Arial;
+ background-color: blue;
+ color:aqua;
+ padding: 20px;
+margin:0px;
+position: sticky;
+top:0px;
+}
+
+.page .text{
+
+    height: 700px;
+}
