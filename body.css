@@ -79,7 +79,7 @@ top:0px;
 
 
 
-label {
+/* label {
 display: inline-block;
 width: 150px;
 height: 50px;
@@ -105,6 +105,59 @@ label input {
 
     left:100px;
     background-color:blue;
+    } */
+
+    /* a {
+        background-color: rgb(0, 255, 72);
+        transition-property: background-color;
+        transition-duration: 1s;
+        transition-delay: 1s;
+        color: white;
+        transition-timing-function:ease-in-out;
+    }
+ a:hover {
+
+    background-color: brown;
+ }
+
+ div {
+
+    height: 50px;
+    width: 0;
+    background-color: red;
+    transition-property: width;
+    transition-duration: 1s;
+    margin-bottom: 10px;
     
-    
+ }
+
+ div:nth-child(1) {
+
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+ }
+
+ div:nth-child(2){
+
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+ }
+
+ div:nth-child(3){
+
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+ }
+ body:hover div {
+
+    width: 100%;
+ } */
+ .avatar{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background: cadetblue;
+    transition: 1s;
+ }
+ .avatar:hover {
+
+    border-radius: 50%;
  }
