@@ -149,7 +149,7 @@ label input {
 
     width: 100%;
  } */
- .avatar{
+ /* .avatar{
 
     width: 200px;
     height: 200px;
@@ -160,4 +160,14 @@ label input {
  .avatar:hover {
 
     border-radius: 50%;
+ } */
+
+ .text {
+
+    columns: 4;
+    column-rule-style:groove;
+    column-rule-color: blue;
+    column-gap: 80px;
+    
+    
  }
