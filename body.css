@@ -162,12 +162,19 @@ label input {
     border-radius: 50%;
  } */
 
- .text {
+ /* .text {
 
     columns: 4;
     column-rule-style:groove;
     column-rule-color: blue;
     column-gap: 80px;
+} */
+
+div {
+font-family: 'Zen Dots', cursive;
     
-    
- }
+}
+
+
+
+
