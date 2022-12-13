@@ -86,6 +86,31 @@
         font-size: 50px;
     }
 
+/* ///////////////////////////// */
+
+img {
+
+filter: blur(10px);
+/* filter: brightness(1.2);
+filter: contrast(1.2);
+filter: grayscale(1);
+filter: hue-rotate(30deg);
+filter: invert(0.1);
+filter:opacity(.5);
+filter: saturate(0.8);
+filter: sepia(.4); */
+/* filter: drop-shadow(0 0 50px red); */
+}
+
+img:hover {
+
+  filter:blur(0px);
+  filter:drop-shadow(0 0 50px red);
+  transition: 1s;
+}
+
+
+
 
     
 
