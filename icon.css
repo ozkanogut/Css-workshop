@@ -102,11 +102,90 @@ filter: sepia(.4); */
 /* filter: drop-shadow(0 0 50px red); */
 }
 
-img:hover {
+/* img:hover {
 
   filter:blur(0px);
   filter:drop-shadow(0 0 50px red);
   transition: 1s;
+} */
+
+.box {
+
+  width: 200px;
+  height: 200px;
+  background: red;
+  transition: 1s ;
+}
+
+#checkbox:checked + .box {
+
+  transform: rotateX(180deg);
+
+}
+.box1 {
+
+  width: 200px;
+  height: 200px;
+  background:blue;
+  transition: 1s ;
+}
+
+#checkbox:checked + .box1 {
+
+  transform: rotateY(180deg);
+  
+}
+.box2 {
+
+  width: 200px;
+  height: 200px;
+  background:blue;
+  transition: 1s ;
+}
+
+#checkbox:checked + .box2 {
+
+  transform: rotateZ(180deg);
+}
+
+.box3 {
+
+  width: 200px;
+  height:200px;
+  position:relative;
+  margin-top: 15px;
+  perspective: 900px;
+}
+
+.box3 .front, .box3 .back {
+ width: inherit;
+ height: inherit;
+ position: absolute;
+ backface-visibility: hidden;
+ transition: 1s transform; 
+ 
+}
+
+.box3 .front {
+
+  background: tomato;
+}
+
+.box3 .back {
+
+  background: gray;
+  transform: rotateX(-180deg);
+}
+
+.box3:hover  .front {
+
+  transform: rotateX(-180deg);
+
+}
+.box3:hover  .back {
+
+  transform: rotateX(0);
+
 }
 
 
