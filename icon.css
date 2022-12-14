@@ -216,6 +216,21 @@ input[type="checkbox"]:checked {
   background-color: red;
 }
 
+.box {
+
+  user-select: none;
+}
+
+.box1 {
+
+  user-select: all;
+}
+
+.box2 {
+
+  user-select: text;
+}
+
 
 
 
