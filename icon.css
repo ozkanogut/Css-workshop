@@ -23,7 +23,7 @@
     font-family: "deneme";
     font-style: normal;
     font-weight: normal;
-    speak: never;
+    speak-as: never;
   
     display: inline-block;
     text-decoration: inherit;
@@ -109,7 +109,7 @@ filter: sepia(.4); */
   transition: 1s;
 } */
 
-.box {
+/* .box {
 
   width: 200px;
   height: 200px;
@@ -185,7 +185,35 @@ filter: sepia(.4); */
 .box3:hover  .back {
 
   transform: rotateX(0);
+} */
 
+select {
+  border-color: greenyellow;
+  height: 45px;
+  appearance: none;
+}
+
+select:hover {
+
+  border-radius: 20px;
+
+}
+
+input[type="checkbox"] {
+
+  background-color: aqua;
+  border-radius: 15px;
+
+}
+
+input[type="checkbox"]:hover {
+
+  border-color: blueviolet;
+}
+
+input[type="checkbox"]:checked {
+
+  background-color: red;
 }
 
 
