@@ -187,7 +187,7 @@ filter: sepia(.4); */
   transform: rotateX(0);
 } */
 
-select {
+/* select {
   border-color: greenyellow;
   height: 45px;
   appearance: none;
@@ -255,7 +255,84 @@ input[type="checkbox"]:checked {
   .call::-webkit-scrollbar-thumb {
 
     background-color: cadetblue;
+  } */
+
+  body,html {
+
+    margin: 0px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
   }
+
+  div {
+
+  background-color: gray;
+  position: sticky;
+  top: 0px;
+  }
+
+  div a {
+  line-height: 50px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 20px;
+  color: white;
+  }
+
+  div a:hover {
+
+    text-decoration: underline;
+    color:greenyellow;
+  }
+
+  section {
+    scroll-margin-top:50px; 
+    height: calc(150vh - 50vh);
+    color: white;
+  }
+
+  #home {
+
+    background-color: red;
+    
+  }
+  
+
+  #about {
+
+    background-color: brown;
+    
+  }
+
+  #blog {
+
+    background-color: blue;
+  }
+  #contact {
+
+    background-color: coral;
+  }
+
+  .top {
+
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    line-height: 50px;
+    padding: 0 20px;
+    background:black;
+    color:white;
+    text-decoration: none;
+    }
+    
+    .top:hover {
+
+      color: red;
+      background: white;
+    }
+
+
 
 
 
