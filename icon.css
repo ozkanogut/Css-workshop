@@ -231,6 +231,32 @@ input[type="checkbox"]:checked {
   user-select: text;
 }
 
+.call {
+
+  width: 75px;
+  height: 75px;
+  border: 1px solid gray;
+  overflow: auto;
+ 
+  }
+
+  .call::-webkit-scrollbar {
+
+    background-color:transparent;
+    width: 4px;
+    height: 4px;
+    border-radius: 5px;
+  }
+  .call::-webkit-scrollbar-corner {
+
+    background-color: cadetblue;
+  }
+
+  .call::-webkit-scrollbar-thumb {
+
+    background-color: cadetblue;
+  }
+
 
 
 
